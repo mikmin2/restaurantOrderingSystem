@@ -255,6 +255,8 @@ public class MainPanelController implements Initializable {
 
         aboutMenu.setOnAction(e -> {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setHeaderText("About");
+            alert.setContentText("Developer: Chris Di Nardo\nApplication name: restaurantOrderingSystem\nVersion: 1.0.1\n");
         });
     }    
    
